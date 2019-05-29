@@ -11,5 +11,5 @@ def List_Sorter_median():
         median2 = lst[int((len(lst) / 2) + 0.5)]
         median = (median1 + median2) / 2
     else:
-        median = lst[len(lst) / 2]
+        median = lst[(len(lst) + 1) / 2]
     return median
